@@ -1,9 +1,5 @@
 /*=======================================================================
 	
-	Item Name 		|		Symp - Responsive One Page VCard/Resume Template
-	
-	Author Name		|		Noman Ali Samejo
-	
 -------------------------------------------------------------------------
 	CSS Structure
 -------------------------------------------------------------------------
@@ -351,7 +347,7 @@ body.section-show .section.active{
 =======================================================================*/
 body.section-show .transition-mask{
 	position:absolute;
-	top:260px;
+	top:110px;
 	height:500px;
 	width:500px;
 	left:0;
@@ -438,12 +434,12 @@ body.section-show .transition-mask:before{
 
 .front-section{
 	padding-top:60px;
-	padding-bottom:200px;
+	padding-bottom:50px;
 	position:relative;
 }
 .front-heading{
 	text-align:center;
-	margin-top:190px;
+	margin-top:100px;
 }
 .front-heading > h2{
 	font-size:55px;
@@ -471,7 +467,7 @@ body.section-show .transition-mask:before{
 	-webkit-transition:height .5s .3s ease, transform .5s .8s ease;
 	-moz-transition:height .5s .3s ease, transform .5s .8s ease;
 	transition:height .5s .3s ease, transform .5s .8s ease;
-	margin:200px auto;
+	margin:50px auto;
 	margin-bottom:0;
 	-webkit-transform:rotate(45deg);
 	-moz-transform:rotate(45deg);
@@ -515,6 +511,7 @@ body.section-show .transition-mask:before{
 	letter-spacing:25px;
 	line-height:1em;
 	text-transform:lowercase;
+	padding: 5px;
 }
 .front-person-titles > .t1{
 	left:5px;
@@ -574,7 +571,7 @@ body.section-show .transition-mask:before{
 	text-align:left;
 	white-space:nowrap;
 	left:100%;
-	top:50%;
+	top:25%;
 	-webkit-transform:translateY(-50%);
 	-moz-transform:translateY(-50%);
 	-ms-transform:translateY(-50%);
@@ -589,7 +586,7 @@ body.section-show .transition-mask:before{
 	font-weight:bold;
 	display:block;
 	font-size:14px;
-	padding:25px 0;
+	padding:10px 0;
 	cursor:pointer;
 	-webkit-transition:all .3s ease;
 	-moz-transition:all .3s ease;
@@ -625,7 +622,9 @@ body.section-show .transition-mask:before{
 	display:none;
 }
 .front-person-links > ul > li > a:hover{
-	color:#B7A389;
+	color:white!important;
+	background: black;
+	padding-left: 15px;
 }
 .front-person-links > ul > li > a:hover:after,
 .front-person-links > ul > li > a:hover:before{
