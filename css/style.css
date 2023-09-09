@@ -1291,6 +1291,15 @@ body.section-show .transition-mask:before{
 	line-height:1.7em;
 	color:#777;
 }
+
+.services-section  > ul {
+	list-style-type: disclosure-closed;
+}
+
+.services-section  > ul  >li{
+	text-align: left;
+}
+
 /*=======================================================================
 	Blog Section
 =======================================================================*/
