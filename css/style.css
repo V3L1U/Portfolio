@@ -1293,11 +1293,11 @@ body.section-show .transition-mask:before{
 }
 
 .services-section  > ul {
-	list-style-type: disclosure-closed;
+	list-style-type: disclosure-closed!important;
 }
 
 .services-section  > ul  >li{
-	text-align: left;
+	text-align: left!important;
 }
 
 /*=======================================================================
