@@ -1292,11 +1292,11 @@ body.section-show .transition-mask:before{
 	color:#777;
 }
 
-.services-section  > ul {
+.services-section ul {
 	list-style-type: disclosure-closed!important;
 }
 
-.services-section  > ul  >li{
+.services-section ul li{
 	text-align: left!important;
 }
 
