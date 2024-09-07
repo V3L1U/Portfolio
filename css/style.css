@@ -1785,7 +1785,13 @@ body .symp-btn{
 }
 
 
-
+.img-portfolio{
+	height: 100%;
+	position: absolute;
+	top: -11px;
+	right: 60px;
+	max-width: max-content!important;
+}
 
 
 /*=======================================================================
@@ -1920,5 +1926,13 @@ body .symp-btn{
 		position:absolute;
 		bottom:0;
 		left:-40px;
+	}
+
+	.img-portfolio{
+		height: 100%;
+		position: absolute;
+		top: -90px;
+		right: 60px;
+		max-width: max-content!important;
 	}
 }
